@@ -2,28 +2,32 @@
 
 ---
 
-### Category Name 1 
+### Work Experience
 
-[Project 1 Title](/sample_page)
+[General Atomics Aeronautical Systems](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Giftpack](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[TBH Marketing](http://tbh-marketing.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[InspirinqCo](http://inspirinqco.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
+### Projects & Extracurriculars
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Design for America Studio Member](http://designforamerica.com/)
+- [SportVue UI/UX Designer](http://sportvue.co/)
+- [Mudd Investment Fund President](http://example.com/)
+- [HMC Wellness Peer](https://www.hmc.edu/health-wellness/)
+- [Freelance Designer + Artist](http://tamxart.wordpress.com/)
 
 ---
 
