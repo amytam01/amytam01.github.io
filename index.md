@@ -4,8 +4,7 @@
 
 ### Work Experience
 
-#[General Atomics Aeronautical Systems](/general_atomics)
-[![General Atomics Aeronautical Systems](GeneralAtomicsLogo.jpg)](/general_atomics)
+[![General Atomics Aeronautical Systems](GaAsiPage.png)](/general_atomics)
 
 ---
 [Giftpack](/pdf/sample_presentation.pdf)
