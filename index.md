@@ -7,12 +7,10 @@
 [![General Atomics Aeronautical Systems](GaAsiPage.png)](/general_atomics)
 
 ---
-[Giftpack](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[![Giftpack](GiftpackPage.png)](/giftpack)
 
 ---
-[TBH Marketing](http://tbh-marketing.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[![TBH Marketing](TbhMarketingPage.png)](/giftpack)
 
 ---
 [InspirinqCo](http://inspirinqco.com/)
