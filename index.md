@@ -1,21 +1,12 @@
-## Portfolio
-
----
-
-### Work Experience
-
+<br>
 [![General Atomics Aeronautical Systems](images/GaAsiPage.png)](/GeneralAtomics)
-
----
+<br>
 [![Giftpack](images/GiftpackPage.png)](/Giftpack)
-
----
+<br>
 [![TBH Marketing](images/TbhMarketingPage.png)](/TbhMarketing)
-
----
+<br>
 [![InspirinqCo](images/InspirinqCoPage.png)](/InspirinqCo)
-
----
+<br>
 
 ### Projects & Extracurriculars
 
@@ -26,7 +17,6 @@
 - [HMC Wellness Peer](https://www.hmc.edu/health-wellness/)
 - [Freelance Designer + Artist](http://tamxart.wordpress.com/)
 
----
 
 
 
