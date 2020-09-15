@@ -13,7 +13,7 @@
 [![TBH Marketing]("images/TbhMarketingPage.png")](/giftpack)
 
 ---
-[![InspirinqCo]("images/InspirinqCoPage.png")](http://inspirinqco.com/)
+[![InspirinqCo](<img src="images/InspirinqCoPage.png?raw=true"/>)](http://inspirinqco.com/)
 
 ---
 
