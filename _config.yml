@@ -7,13 +7,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   Hi! I'm Amy, a computer science major at Harvey Mudd College. 
   I enjoy creating and designing experiences that make lives 
   easier and more enjoyable.
-  <br><br>
-  I fell in love with the intersect between software and design. 
-  As a software engineer, I have the ability to build paths to 
-  pave the way to a better future. As a designer, I have the 
-  opportunity to make journeys smoother and visually appealing.
-  <br><br>
+  
   <a href="https://www.linkedin.com/in/amytam01/">View My LinkedIn Profile</a> 
+  <a href="https://docs.google.com/document/d/1BxHZBSJ-UlpVITdHcqwXFX7xfpH_hVB5QN9m7mhPilA/edit?usp=sharing">View My SWE Resume</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
