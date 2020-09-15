@@ -9,6 +9,10 @@
 <br>
 [![InspirinqCo](images/InspirinqCoPage.png)](/InspirinqCo)
 <br>
+<br>
+
+---
+
 
 ### Projects & Extracurriculars
 
