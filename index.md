@@ -13,7 +13,7 @@
 [![TBH Marketing](images/TbhMarketingPage.png)](/TbhMarketing)
 
 ---
-[![InspirinqCo](images/InpsirinqCoPage.png)](/InspirinqCo)
+[![InspirinqCo](images/InspirinqCoPage.png)](/InspirinqCo)
 
 ---
 
