@@ -4,16 +4,16 @@
 
 ### Work Experience
 
-[![General Atomics Aeronautical Systems]("images/GaAsiPage.png")](/general_atomics)
+[![General Atomics Aeronautical Systems](images/GaAsiPage.png)](/general_atomics)
 
 ---
-[![Giftpack]("images/GiftpackPage.png")](/giftpack)
+[![Giftpack](images/GiftpackPage.png)](/giftpack)
 
 ---
-[![TBH Marketing]("images/TbhMarketingPage.png")](/giftpack)
+[![TBH Marketing](images/TbhMarketingPage.png)](/giftpack)
 
 ---
-[![InspirinqCo](<img src="images/InspirinqCoPage.png?raw=true"/>)](http://inspirinqco.com/)
+[![InspirinqCo](images/InpsirinqCoPage.png)](http://inspirinqco.com/)
 
 ---
 
