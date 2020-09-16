@@ -39,7 +39,25 @@
         {% endif %}
       </header>
       <section>
+        
+        
+        <!-- Control buttons -->
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+  <button class="btn" onclick="filterSelection('SWE')"> Software Engineering</button>
+  <button class="btn" onclick="filterSelection('ProductDesign')"> ProductDesign</button>
+</div>
 
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <div class="filterDiv SWE">GeneralAtomics</div>
+  <div class="filterDiv SWE">InspirinqCo</div>
+  <div class="filterDiv SWE">TbhMarketing</div>
+  <div class="filterDiv ProductDesign">TbhMarketing</div>
+  <div class="filterDiv ProductDesign">Giftpack</div>
+  <div class="filterDiv ProductDesign">InspirinqCo</div>
+</div>
+        
       {{ content }}
 
       </section>
