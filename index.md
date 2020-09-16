@@ -1,5 +1,3 @@
-# Portfolio
-
 <br>
 [![General Atomics Aeronautical Systems](images/GaAsiPage.png)](/GeneralAtomics)
 <br>
