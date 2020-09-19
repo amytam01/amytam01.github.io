@@ -5,8 +5,6 @@
 <br>
 [![TBH Marketing](images/TbhMarketingPage.png)](/TbhMarketing)
 <br>
-[![InspirinqCo](images/InspirinqCoPage.png)](/InspirinqCo)
-<br>
 
 ## Product Design
 <br>
