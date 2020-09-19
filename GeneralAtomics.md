@@ -1,12 +1,13 @@
 ## General Atomics Aeronautical Systems
 ---
 
-<br>
 **Summer 2020**, I moved to San Diego to start my journey as a **software engineering intern** on the Army Modernization team at **GA-ASI**. 
 <br>
 Despite COVID-19, I was working on-site due to the sensitivity of the information I was handling. By the end of my internship, I had gained powerful skills in unit testing and C/C++ knowledge while using Jenkins, LINUX, and Vim. This [GA-ASI Presentation](/pdf/AmyGA86.pdf) is the culmination of my work at GA-ASI.
 
 My role was specifically to test all functionality relating to three modules: Daylight Camera, Infrared Beacons, and Nose Camera. In short, unit testing confirmed the functionality of these modules, and allowed us to move the non-flight critical modules from the flight critical specific hardware to newly developed non-flight critical hardware. In addition, in the future unit tests would allow us to refactor legacy code if need be (as refactoring legacy code, especially in aerospace, can be time-consuming and costly). In total, I wrote **197 unit tests**.
+
+<br>
 
 **Here's what I learned:**
 <br><br>
