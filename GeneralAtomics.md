@@ -21,7 +21,6 @@ TEST(ErsdInfraredBeaconsTests, EnableWhenInRecovery) {
   verifyInfraredBeaconsOn();
 }
 ```
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ### 2. Unit testing, C/C++, Jenkins, LINUX, Vim, an how to write beautiful C
 
@@ -29,7 +28,7 @@ At the beginning of my internship, I was only versed in Python, HTML/CSS, and Ja
 
 ```javascript
 if (learnGoodCodePractices){
-  cout << "More efficiency overtime, and less code rot!" << endl;
+  cout << "Less code rot! :)" << endl;
 }
 ```
 
