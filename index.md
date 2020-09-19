@@ -1,14 +1,18 @@
 ## Software Engineering
+---
 
 <br>
 [![General Atomics Aeronautical Systems](images/GaAsiPage.png)](/GeneralAtomics)
 <br>
+<br>
 [![TBH Marketing](images/TbhMarketingPage.png)](/TbhMarketing)
+<br>
 <br>
 
 ## Product Design
 <br>
 [![Giftpack](images/GiftpackPage.png)](/Giftpack)
+<br>
 <br>
 [![InspirinqCo](images/InspirinqCoPage.png)](/InspirinqCo)
 <br>
@@ -18,6 +22,7 @@
 
 
 ### Projects & Extracurriculars
+---
 
 - [Design for America Studio Member](http://designforamerica.com/)
 - [CVS Health National Project](http://designforamerica.com/2020/08/12/dfa-teams-help-ymca-cvs-health-make-impact-this-fall/)
