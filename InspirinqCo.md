@@ -1,6 +1,8 @@
 ## InspirinqCo
+---
 
 From 2016-2018, I was **Co-Owner of InspirinqCo** and redeveloped the website, managed products, and oversaw public relations and partnerships with influencers with a net following of more than 4 million on Instagram.
+---
 
 ### 1. Redeveloped website and brand identity
 
