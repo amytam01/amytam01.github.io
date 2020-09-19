@@ -4,6 +4,8 @@
 **Summer 2019** I joined **TBH Marketing** as a **project manager intern**.
 <br>
 
+---
+
 ### 1. Built website using Webflow/Wordpress
 
 Using design principles, I completely redesigned TBH Marketing to reflect the motto and brightness of the TBH Marketing team and office.
