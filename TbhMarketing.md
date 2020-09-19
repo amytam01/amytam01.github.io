@@ -1,21 +1,33 @@
 ## TBH Marketing
 ---
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Summer 2019** I joined **TBH Marketing** as a **project manager intern**.
+<n>
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Built website using Webflow/Wordpress
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Using design principles, I completely redesigned TBH Marketing to reflect the motto and brightness of the TBH Marketing team and office.
 
-### 2. Assess assumptions on which statistical inference will be based
+#### Before
+<img src="images/tbh1"/>
+
+<img src="images/tbh3"/>
+
+<img src="images/tbh5"/>
+
+#### After
+<img src="images/newtbh1"/>
+
+<img src="images/newtbh2"/>
 
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### 2. Built insurance website aimed towards millennials using Wix
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+I worked as a project manager on a team of interns to develop an insurance website aimed towards millennials. We researched health insurance policies, ways to develop calculators to determine health plans, did market research, and competitor analysis.
 
-### 4. Provide a basis for further data collection through surveys or experiments
+#### 3. Built chatbot using Tensorflow
+#### 4. Was hosted on TBH Marketing's podcast
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
-For more details see [GitHub Flavored Markdown](/pdf/AmyGA86.pdf).
+
+For more details see [TBH Marketing](tbh-marketing.com).
