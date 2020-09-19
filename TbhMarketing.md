@@ -31,6 +31,6 @@ I worked as a project manager on a team of interns to develop an insurance websi
 #### 3. Built chatbot using Tensorflow
 #### 4. Was hosted on TBH Marketing's podcast
 
-
+<br>
 
 For more details see [TBH Marketing](tbh-marketing.com).
