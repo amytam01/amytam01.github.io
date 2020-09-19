@@ -7,7 +7,7 @@ Despite COVID-19, I was working on-site due to the sensitivity of the informatio
 
 My role was specifically to test all functionality relating to three modules: Daylight Camera, Infrared Beacons, and Nose Camera. In short, unit testing confirmed the functionality of these modules, and allowed us to move the non-flight critical modules from the flight critical specific hardware to newly developed non-flight critical hardware. In addition, in the future unit tests would allow us to refactor legacy code if need be (as refactoring legacy code, especially in aerospace, can be time-consuming and costly). In total, I wrote **197 unit tests**.
 
-<br>
+---
 
 **Here's what I learned:**
 <br><br>
