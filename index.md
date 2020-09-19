@@ -1,9 +1,16 @@
+## Software Engineering
+
 <br>
 [![General Atomics Aeronautical Systems](images/GaAsiPage.png)](/GeneralAtomics)
 <br>
-[![Giftpack](images/GiftpackPage.png)](/Giftpack)
-<br>
 [![TBH Marketing](images/TbhMarketingPage.png)](/TbhMarketing)
+<br>
+[![InspirinqCo](images/InspirinqCoPage.png)](/InspirinqCo)
+<br>
+
+## Product Design
+<br>
+[![Giftpack](images/GiftpackPage.png)](/Giftpack)
 <br>
 [![InspirinqCo](images/InspirinqCoPage.png)](/InspirinqCo)
 <br>
