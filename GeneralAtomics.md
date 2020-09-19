@@ -8,8 +8,6 @@ Despite COVID-19, I was working on-site due to the sensitivity of the informatio
 My role was specifically to test all functionality relating to three modules: Daylight Camera, Infrared Beacons, and Nose Camera. In short, unit testing confirmed the functionality of these modules, and allowed us to move the non-flight critical modules from the flight critical specific hardware to newly developed non-flight critical hardware. In addition, in the future unit tests would allow us to refactor legacy code if need be (as refactoring legacy code, especially in aerospace, can be time-consuming and costly). In total, I wrote **197 unit tests**.
 
 ---
-
-**Here's what I learned:**
 <br><br>
 ### 1. Having written 197 unit tests, I learned the importance of writing clean code and good unit tests.
 Before this internship, I had no sense of code style. However, having read tens of thousands of lines of code and having to interpret names and code to understand what specific modules did, I learned the importance of writing clean code to reduce code rot and to prevent future interns from the pain of having to guess what my code meant or did. I meticulously named all of my functions, and continuously built helper functions to make code more readable such that reading a function should make it immediately obvious what it did. I learned to make my unit tests modular, independent, and with specific names. For example, this is real code I wrote for a unit test: 
