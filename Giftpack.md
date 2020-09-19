@@ -1,31 +1,18 @@
 ## Giftpack
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Description:** Spring 2020 I started as a UI/UX design intern at Giftpack. Giftpack is a startup with its headquarters in Taipei that improves the gifting experience consumer to consumer and business to business through the power of AI and customization. I really enjoyed working at Giftpack, it gaves me the opportunity to explore the startup space, and to have much more control over the impact and projects I developed. Working with Giftpackers primarily based in Asia, I learned to appreciate the flexibility and difficulties of working remotely across timezones. Despite it all, I learned so much about design, and about building a family remotely. Here are the main projects I did:
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Adding Calendar and Favorite features to Giftpack (Shipping in Progress)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### 2. Revising "Secret Messages" feature (Shipped)
 
-### 2. Assess assumptions on which statistical inference will be based
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
+### 3. Redesigned the UX flow for the trial process of Giftpack AI
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 4. Researched and developed UX flows for Giftpack users (Google Chrome, Slack, etc)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
-For more details see [GitHub Flavored Markdown](/pdf/AmyGA86.pdf).
+Check out [Giftpack](giftpack.io)!
