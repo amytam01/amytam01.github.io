@@ -13,7 +13,7 @@ Using design principles, I completely redesigned TBH Marketing to reflect the mo
 
 <img src="images/tbh3"/>
 
-<img src="images/tbh5"/>
+<img src="images/tbh4"/>
 
 #### After
 <img src="images/newtbh1"/>
