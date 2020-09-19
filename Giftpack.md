@@ -8,22 +8,22 @@ Giftpack is a startup with its headquarters in Taipei that improves the gifting 
 
 ### 1. Adding Calendar features to Giftpack
 <br>
-![Calendar Feature Part 1](cal1.gif)
+![Calendar Feature Part 1](cal1.gif = 300x200)
 <br>
 <br>
-![Calendar Feature Part 2](cal2.gif)
+![Calendar Feature Part 2](cal2.gif = 300x200)
 <br>
 <br>
-![Calendar Feature Part 3](cal2.gif)
+![Calendar Feature Part 3](cal2.gif = 300x200)
 <br>
 <br>
 
 ### 2. Revising "Secret Messages" feature 
 <br>
-![Secret Message Feature Part 1](message1.gif)
+![Secret Message Feature Part 1](message1.gif = 176x385)
 <br>
 <br>
-![Secret Message Feature Part 2](message2.gif)
+![Secret Message Feature Part 2](message2.gif = 176x385)
 <br>
 <br>
 
