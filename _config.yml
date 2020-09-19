@@ -10,7 +10,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   
   <br><br>
   <a href="https://www.linkedin.com/in/amytam01/">View My LinkedIn Profile</a> 
-  <br> <br>
+  <br><br>
   <a href="https://docs.google.com/document/d/1BxHZBSJ-UlpVITdHcqwXFX7xfpH_hVB5QN9m7mhPilA/edit?usp=sharing">View My SWE Resume</a> 
   
 theme: jekyll-theme-minimal
