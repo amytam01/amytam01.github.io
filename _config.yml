@@ -7,6 +7,12 @@ description: > # your text below (remove <br> elements if you don't need line br
   Hi! I'm Amy, a computer science major at Harvey Mudd College. 
   I enjoy creating and designing experiences that make lives 
   easier and more enjoyable.
+  
+  social-network-links:
+  email: "atam@hmc.edu"
+  github: amytam01
+  linkedin: amytam01
+  
   <br><br>
   <a href="https://www.linkedin.com/in/amytam01/">View My LinkedIn Profile</a> 
   <br>
