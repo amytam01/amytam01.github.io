@@ -11,16 +11,16 @@
 Using design principles, I completely redesigned TBH Marketing to reflect the motto and brightness of the TBH Marketing team and office.
 
 #### Before
-[![TBH Marketing Before 1](images/tbh1.png)]
+![TBH Marketing Before 1](images/tbh1.PNG)
 
-[![TBH Marketing Before 3](images/tbh3.png)]
+![TBH Marketing Before 3](images/tbh3.PNG)
 
-[![TBH Marketing Before 4](images/tbh4.png)]
+![TBH Marketing Before 4](images/tbh4.PNG)
 
 #### After
-[![TBH Marketing After 1](images/newtbh1.png)]
+![TBH Marketing After 1](images/newtbh1.png)
 
-[![TBH Marketing After 2](images/newtbh2.png)]
+![TBH Marketing After 2](images/newtbh2.png)
 
 <br><br>
 
