@@ -28,7 +28,7 @@ Using design principles, I completely redesigned TBH Marketing to reflect the mo
 
 I worked as a project manager on a team of interns to develop an insurance website aimed towards millennials. We researched health insurance policies, ways to develop calculators to determine health plans, did market research, and competitor analysis.
 
-<br><br>
+<br>
 
 #### 3. Built chatbot using Tensorflow
 #### 4. Was hosted on TBH Marketing's podcast
