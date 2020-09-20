@@ -13,9 +13,7 @@ Using design principles, I completely redesigned TBH Marketing to reflect the mo
 #### Before
 ![TBH Marketing Before 1](images/tbh1.png)
 
-![TBH Marketing Before 3](images/tbh3.png)
-
-![TBH Marketing Before 4](images/tbh4.png)
+![TBH Marketing Before 2](images/tbh2.png)
 
 #### After
 ![TBH Marketing After 1](images/newtbh1.png)
