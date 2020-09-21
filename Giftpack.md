@@ -18,9 +18,6 @@ Giftpack is a startup with its headquarters in Taipei that improves the gifting 
 
 <br>
 <br>
-![Calendar Feature Part 3](gif/cal2.gif)
-<br>
-<br>
 <br>
 
 ### 2. Revising "Secret Messages" feature 
