@@ -25,7 +25,7 @@
 ---
 
 - [Design for America Studio Member](http://designforamerica.com/)
-- [CVS Health National Project](http://designforamerica.com/2020/08/12/dfa-teams-help-ymca-cvs-health-make-impact-this-fall/)
+- [CVS Health National Project Team Leader](http://designforamerica.com/2020/08/12/dfa-teams-help-ymca-cvs-health-make-impact-this-fall/)
 - [SportVue UI/UX Designer](http://sportvue.co/)
 - [Mudd Investment Fund President](http://example.com/)
 - [HMC Wellness Peer](https://www.hmc.edu/health-wellness/)
