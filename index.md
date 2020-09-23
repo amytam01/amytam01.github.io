@@ -1,19 +1,14 @@
-## Software Engineering
+## Work Portfolio
 ---
 
 <br>
 [![General Atomics Aeronautical Systems](images/GaAsiPage.png)](/GeneralAtomics)
 <br>
 <br>
-[![TBH Marketing](images/TbhMarketingPage.png)](/TbhMarketing)
-<br>
-<br>
-
-## Product Design
----
-
-<br>
 [![Giftpack](images/GiftpackPage.png)](/Giftpack)
+<br>
+<br>
+[![TBH Marketing](images/TbhMarketingPage.png)](/TbhMarketing)
 <br>
 <br>
 [![InspirinqCo](images/InspirinqCoPage.png)](/InspirinqCo)
