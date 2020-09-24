@@ -5,13 +5,13 @@ description: > # your text below (remove <br> elements if you don't need line br
   Hi! I'm Amy Tam, a computer science major at Harvey Mudd College. 
   <br><br>
   I’m an aspiring product designer and software engineer, and a big believer in how the power of people, 
-  the internet, a laptop, and a bit of faith can change the world. I want to be a part of building 
-  and designing products to spark these changes.
+  the internet, a laptop, and a bit of faith can change the world. I love building and designing products to spark change.
   
   <br><br>
   <a href="https://www.linkedin.com/in/amytam01/">View My LinkedIn Profile</a> 
   <br><br>
   <a href="https://docs.google.com/document/d/1BxHZBSJ-UlpVITdHcqwXFX7xfpH_hVB5QN9m7mhPilA/edit?usp=sharing">View My SWE Resume</a> 
+  <br>
   <a href="https://docs.google.com/document/d/1qEnMgfJ-sLayb_LstiwZyy0eazXRU7Whqn_fBLMAqzM/edit?usp=sharing">View My Design Resume</a> 
   
 theme: jekyll-theme-minimal
