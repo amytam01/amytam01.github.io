@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy's Interactive Site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+            cursor: default;
+            overflow-x: hidden;
+            color: #2c2c2c;
+            line-height: 1.6;
+        }
+
+        /* Cute character sprite */
+        #neko {
+            width: 32px;
+            height: 32px;
+            position: fixed;
+            pointer-events: none;
+            image-rendering: pixelated;
+            z-index: 10000;
+            background-image: var(--neko-sprite);
+            background-size: 320px 128px;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+        }
+
+        /* Main content */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 60px 40px 60px;
+            background: #ffffff;
+            min-height: 100vh;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .name {
+            font-size: 2.5rem;
+            color: #2c2c2c;
+            margin-bottom: 12px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #4a4a4a;
+            margin-bottom: 6px;
+            font-weight: 400;
+        }
+
+        .interests {
+            font-size: 1rem;
+            color: #6a6a6a;
+            font-weight: 300;
+        }
+
+        .social-links {
+            position: absolute;
+            top: 60px;
+            right: 60px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-links a {
+            color: #4a4a4a;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: color 0.2s;
+        }
+
+        .social-links a:hover {
+            color: #2c2c2c;
+        }
+
+        .section {
+            margin-bottom: 32px;
+        }
+
+        .section-label {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: #999;
+            margin-bottom: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        .item {
+            margin-bottom: 14px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .item::before {
+            content: '○';
+            position: absolute;
+            left: 0;
+            color: #ccc;
+            font-size: 0.8rem;
+        }
+
+        .item p {
+            margin: 0;
+            color: #4a4a4a;
+            font-size: 0.98rem;
+            line-height: 1.5;
+        }
+
+        .highlight {
+            color: #0066cc;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .highlight:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-purple {
+            color: #9945ff;
+            font-weight: 500;
+        }
+
+        .highlight-orange {
+            color: #ff8c42;
+            font-weight: 500;
+        }
+
+        .highlight-green {
+            color: #00a67e;
+            font-weight: 500;
+        }
+
+        .links {
+            margin-top: 12px;
+        }
+
+        .links a {
+            color: #4a4a4a;
+            text-decoration: none;
+            margin-right: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 2px;
+            transition: border-color 0.2s;
+        }
+
+        .links a:hover {
+            border-color: #2c2c2c;
+        }
+
+        .footer-note {
+            margin-top: 40px;
+            font-size: 0.82rem;
+            color: #999;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 24px 20px 24px;
+            }
+
+            .header {
+                margin-bottom: 24px;
+            }
+
+            .name {
+                font-size: 1.8rem;
+                margin-bottom: 8px;
+            }
+
+            .tagline {
+                font-size: 0.95rem;
+                margin-bottom: 4px;
+            }
+
+            .social-links {
+                position: static;
+                margin-bottom: 20px;
+                gap: 16px;
+            }
+
+            .social-links a {
+                font-size: 1.3rem;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+
+            .section-label {
+                font-size: 0.85rem;
+                margin-bottom: 10px;
+            }
+
+            .item {
+                margin-bottom: 10px;
+                padding-left: 16px;
+            }
+
+            .item p {
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+
+            .footer-note {
+                margin-top: 24px;
+                font-size: 0.75rem;
+            }
+
+            .links a {
+                margin-right: 16px;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Extra small mobile - make even more compact */
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px 16px 16px 16px;
+            }
+
+            .header {
+                margin-bottom: 20px;
+            }
+
+            .name {
+                font-size: 1.6rem;
+            }
+
+            .tagline {
+                font-size: 0.88rem;
+            }
+
+            .section {
+                margin-bottom: 16px;
+            }
+
+            .section-label {
+                margin-bottom: 8px;
+            }
+
+            .item {
+                margin-bottom: 8px;
+            }
+
+            .item p {
+                font-size: 0.85rem;
+            }
+
+            .footer-note {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="neko"></div>
+
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/amytam01/" title="LinkedIn" target="_blank">in</a>
+        <a href="https://x.com/amytam01" title="Twitter" target="_blank">𝕏</a>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1 class="name">Amy Tam</h1>
+            <p class="tagline">investor, beta tester, "make life better" enthusiast</p>
+        </div>
+
+        <div class="section">
+            <div class="section-label">currently</div>
+            
+            <div class="item">
+                <p>Investing in pre-seed & seed companies building for the future of work at <a href="https://github.com/Bloomberg-Beta/Manual" class="highlight-purple" target="_blank">Bloomberg Beta</a></p>
+            </div>
+
+            <div class="item">
+                <p>Being a good friend and neighbor to my village</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-label">previously</div>
+            
+            <div class="item">
+                <p>Worked on product at <span class="highlight">LinkedIn</span> — feed relevance and ads relevance</p>
+            </div>
+
+            <div class="item">
+                <p>AI policy and AI evals work at <span class="highlight-orange">RAND Corporation</span></p>
+            </div>
+
+            <div class="item">
+                <p>Managing Partner at <span class="highlight-purple">Crescent Fund</span></p>
+            </div>
+
+            <div class="item">
+                <p>Ran a meme account with 35k followers</p>
+            </div>
+
+            <div class="item">
+                <p>Studied Computer Science at <span class="highlight-green">Harvey Mudd College</span></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-label">writing</div>
+            
+            <div class="item">
+                <p><a href="https://x.com/amytam01/status/2021344443576746186" class="highlight" target="_blank">Where Did All Our Tokens Go</a></p>
+            </div>
+
+            <div class="item">
+                <p><a href="https://amytam01.substack.com/p/money-talks-the-prediction-market" class="highlight" target="_blank">Money Talks: The Prediction Market Boom and Why It Matters</a></p>
+            </div>
+
+            <div class="item">
+                <p><a href="https://substack.com/@amytam01/p-176776643" class="highlight" target="_blank">The Founders LinkedIn Guide</a></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-label">get in touch</div>
+            
+            <div class="links">
+                <a href="https://www.linkedin.com/in/amytam01/" target="_blank">linkedin</a>
+                <a href="https://x.com/amytam01" target="_blank">twitter</a>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            move your cursor around — my pixel friend will chase after it 🏃‍♀️
+        </div>
+    </div>
+
+    <script>
+        // Create sprite sheet as base64 data URL - cute character with long orange/auburn hair
+        const spriteSheet = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='128'%3E%3Cdefs%3E%3Cstyle%3E .skin%7Bfill:%23fdd5b1%7D .hair%7Bfill:%23b8622d%7D .jacket%7Bfill:%234a6fa5%7D .eye%7Bfill:%23000%7D%3C/style%3E%3C/defs%3E%3C!-- Idle --%3E%3Cg%3E%3Crect class='hair' x='6' y='3' width='20' height='8'/%3E%3Crect class='hair' x='3' y='10' width='5' height='16'/%3E%3Crect class='hair' x='24' y='10' width='5' height='16'/%3E%3Crect class='skin' x='8' y='8' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='12' y='14' width='3' height='3'/%3E%3Crect class='eye' x='17' y='14' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='22' width='12' height='8'/%3E%3Crect class='jacket' x='12' y='28' width='3' height='4'/%3E%3Crect class='jacket' x='17' y='28' width='3' height='4'/%3E%3C/g%3E%3C!-- Run right 1 --%3E%3Cg transform='translate(32,0)'%3E%3Crect class='hair' x='6' y='3' width='20' height='8'/%3E%3Crect class='hair' x='3' y='10' width='5' height='16'/%3E%3Crect class='hair' x='24' y='10' width='5' height='17'/%3E%3Crect class='skin' x='8' y='8' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='13' y='14' width='3' height='3'/%3E%3Crect class='eye' x='18' y='14' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='22' width='12' height='8'/%3E%3Crect class='jacket' x='10' y='28' width='3' height='4'/%3E%3Crect class='jacket' x='19' y='28' width='3' height='5'/%3E%3C/g%3E%3C!-- Run right 2 --%3E%3Cg transform='translate(64,0)'%3E%3Crect class='hair' x='6' y='2' width='20' height='8'/%3E%3Crect class='hair' x='3' y='9' width='5' height='16'/%3E%3Crect class='hair' x='24' y='9' width='5' height='18'/%3E%3Crect class='skin' x='8' y='7' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='13' y='13' width='3' height='3'/%3E%3Crect class='eye' x='18' y='13' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='21' width='12' height='8'/%3E%3Crect class='jacket' x='12' y='27' width='3' height='4'/%3E%3Crect class='jacket' x='17' y='29' width='3' height='3'/%3E%3C/g%3E%3C!-- Run left 1 --%3E%3Cg transform='translate(96,0)'%3E%3Crect class='hair' x='6' y='3' width='20' height='8'/%3E%3Crect class='hair' x='3' y='10' width='5' height='17'/%3E%3Crect class='hair' x='24' y='10' width='5' height='16'/%3E%3Crect class='skin' x='8' y='8' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='11' y='14' width='3' height='3'/%3E%3Crect class='eye' x='16' y='14' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='22' width='12' height='8'/%3E%3Crect class='jacket' x='10' y='28' width='3' height='5'/%3E%3Crect class='jacket' x='19' y='28' width='3' height='4'/%3E%3C/g%3E%3C!-- Run left 2 --%3E%3Cg transform='translate(128,0)'%3E%3Crect class='hair' x='6' y='2' width='20' height='8'/%3E%3Crect class='hair' x='3' y='9' width='5' height='18'/%3E%3Crect class='hair' x='24' y='9' width='5' height='16'/%3E%3Crect class='skin' x='8' y='7' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='11' y='13' width='3' height='3'/%3E%3Crect class='eye' x='16' y='13' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='21' width='12' height='8'/%3E%3Crect class='jacket' x='12' y='29' width='3' height='3'/%3E%3Crect class='jacket' x='17' y='27' width='3' height='4'/%3E%3C/g%3E%3C!-- Run up 1 --%3E%3Cg transform='translate(160,0)'%3E%3Crect class='hair' x='6' y='3' width='20' height='8'/%3E%3Crect class='hair' x='3' y='10' width='5' height='16'/%3E%3Crect class='hair' x='24' y='10' width='5' height='16'/%3E%3Crect class='skin' x='8' y='8' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='12' y='13' width='3' height='3'/%3E%3Crect class='eye' x='17' y='13' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='22' width='12' height='8'/%3E%3Crect class='jacket' x='10' y='28' width='3' height='4'/%3E%3Crect class='jacket' x='19' y='28' width='3' height='4'/%3E%3C/g%3E%3C!-- Run up 2 --%3E%3Cg transform='translate(192,0)'%3E%3Crect class='hair' x='6' y='2' width='20' height='8'/%3E%3Crect class='hair' x='3' y='9' width='5' height='16'/%3E%3Crect class='hair' x='24' y='9' width='5' height='16'/%3E%3Crect class='skin' x='8' y='7' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='12' y='12' width='3' height='3'/%3E%3Crect class='eye' x='17' y='12' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='21' width='12' height='8'/%3E%3Crect class='jacket' x='12' y='27' width='3' height='4'/%3E%3Crect class='jacket' x='17' y='27' width='3' height='4'/%3E%3C/g%3E%3C!-- Run down 1 --%3E%3Cg transform='translate(224,0)'%3E%3Crect class='hair' x='6' y='3' width='20' height='8'/%3E%3Crect class='hair' x='3' y='10' width='5' height='16'/%3E%3Crect class='hair' x='24' y='10' width='5' height='16'/%3E%3Crect class='skin' x='8' y='8' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='12' y='15' width='3' height='3'/%3E%3Crect class='eye' x='17' y='15' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='22' width='12' height='8'/%3E%3Crect class='jacket' x='10' y='28' width='3' height='4'/%3E%3Crect class='jacket' x='19' y='28' width='3' height='4'/%3E%3C/g%3E%3C!-- Run down 2 --%3E%3Cg transform='translate(256,0)'%3E%3Crect class='hair' x='6' y='4' width='20' height='8'/%3E%3Crect class='hair' x='3' y='11' width='5' height='16'/%3E%3Crect class='hair' x='24' y='11' width='5' height='16'/%3E%3Crect class='skin' x='8' y='9' width='16' height='16' rx='2'/%3E%3Crect class='eye' x='12' y='16' width='3' height='3'/%3E%3Crect class='eye' x='17' y='16' width='3' height='3'/%3E%3Crect class='jacket' x='10' y='23' width='12' height='8'/%3E%3Crect class='jacket' x='12' y='29' width='3' height='3'/%3E%3Crect class='jacket' x='17' y='29' width='3' height='3'/%3E%3C/g%3E%3C!-- Sleeping 1 --%3E%3Cg transform='translate(0,32)'%3E%3Crect class='hair' x='6' y='7' width='20' height='8'/%3E%3Crect class='hair' x='3' y='14' width='5' height='12'/%3E%3Crect class='hair' x='24' y='14' width='5' height='12'/%3E%3Crect class='skin' x='8' y='12' width='16' height='14' rx='2'/%3E%3Cline x1='11' y1='18' x2='14' y2='18' stroke='%23000' stroke-width='2'/%3E%3Cline x1='18' y1='18' x2='21' y2='18' stroke='%23000' stroke-width='2'/%3E%3Crect class='jacket' x='10' y='24' width='12' height='6'/%3E%3C/g%3E%3C!-- Sleeping 2 --%3E%3Cg transform='translate(32,32)'%3E%3Crect class='hair' x='6' y='8' width='20' height='8'/%3E%3Crect class='hair' x='3' y='15' width='5' height='12'/%3E%3Crect class='hair' x='24' y='15' width='5' height='12'/%3E%3Crect class='skin' x='8' y='13' width='16' height='14' rx='2'/%3E%3Cline x1='11' y1='19' x2='14' y2='19' stroke='%23000' stroke-width='2'/%3E%3Cline x1='18' y1='19' x2='21' y2='19' stroke='%23000' stroke-width='2'/%3E%3Crect class='jacket' x='10' y='25' width='12' height='6'/%3E%3C/g%3E%3C/svg%3E`;
+
+        const neko = document.getElementById('neko');
+        document.documentElement.style.setProperty('--neko-sprite', `url("${spriteSheet}")`);
+
+        let nekoX = 32;
+        let nekoY = 32;
+        let mousePosX = 0;
+        let mousePosY = 0;
+        let frameCount = 0;
+        let idleTime = 0;
+        let idleAnimation = null;
+        let idleAnimationFrame = 0;
+        let isIdle = false;
+
+        const spriteSets = {
+            idle: [0, 0],
+            runRight: [32, 64],
+            runLeft: [96, 128],
+            runUp: [160, 192],
+            runDown: [224, 256],
+            sleep: [[0, 32], [32, 32]]
+        };
+
+        function setSprite(name, frame) {
+            const sprite = spriteSets[name];
+            if (name === 'sleep') {
+                const coords = sprite[frame % sprite.length];
+                neko.style.backgroundPosition = `-${coords[0]}px -${coords[1]}px`;
+            } else {
+                neko.style.backgroundPosition = `-${sprite[frame % 2]}px 0px`;
+            }
+        }
+
+        function resetIdleAnimation() {
+            idleAnimation = null;
+            idleAnimationFrame = 0;
+        }
+
+        function idle() {
+            idleTime += 1;
+
+            if (idleTime > 10 && Math.floor(Math.random() * 200) === 0 && idleAnimation == null) {
+                idleAnimation = 'sleep';
+                idleAnimationFrame = 0;
+            }
+
+            if (idleAnimation === 'sleep') {
+                setSprite('sleep', idleAnimationFrame);
+                idleAnimationFrame += 1;
+                if (idleAnimationFrame > 8) {
+                    idleAnimationFrame = 1;
+                }
+            } else {
+                setSprite('idle', 0);
+            }
+        }
+
+        function nekoLoop() {
+            frameCount += 1;
+            const diffX = nekoX - mousePosX;
+            const diffY = nekoY - mousePosY;
+            const distance = Math.sqrt(diffX ** 2 + diffY ** 2);
+
+            if (distance < 48) {
+                // Close to cursor - idle
+                isIdle = true;
+                idle();
+                return;
+            }
+
+            if (isIdle) {
+                resetIdleAnimation();
+                isIdle = false;
+            }
+
+            idleTime = 0;
+
+            let direction = '';
+            const angle = Math.atan2(diffY, diffX);
+            
+            // Determine primary direction
+            if (Math.abs(diffX) > Math.abs(diffY)) {
+                direction = diffX > 0 ? 'runLeft' : 'runRight';
+            } else {
+                direction = diffY > 0 ? 'runUp' : 'runDown';
+            }
+
+            setSprite(direction, frameCount);
+
+            // Move towards cursor
+            const speed = 10;
+            nekoX -= (diffX / distance) * speed;
+            nekoY -= (diffY / distance) * speed;
+
+            neko.style.left = `${nekoX - 16}px`;
+            neko.style.top = `${nekoY - 16}px`;
+        }
+
+        document.addEventListener('mousemove', (event) => {
+            mousePosX = event.clientX;
+            mousePosY = event.clientY;
+        });
+
+        // Initialize position
+        neko.style.left = `${nekoX - 16}px`;
+        neko.style.top = `${nekoY - 16}px`;
+
+        // Main animation loop
+        setInterval(nekoLoop, 100);
+    </script>
+</body>
+</html>
